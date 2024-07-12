@@ -73,6 +73,8 @@ const order: Order[] = [
         item: 'GameCube Controller - Super Smash Bros. Edition (Nintendo Switch)',
         itemReturnWindow: 'Return Window closed on Aug 4, 2020',
         itemPrice: 94.95,
+      },
+      {
         bookTitle: 'The Art of Sql',
         bookAuthor: 'Faroult, Stephane',
         bookReturnWindow: 'Return Window closed on Aug 4, 2020',
