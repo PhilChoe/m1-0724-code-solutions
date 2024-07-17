@@ -40,7 +40,7 @@ console.log('first name is: ', getFirstName(person));
 
 //
 
-const getLastElement = (array: any): any => {
+const getLastElement = (array: any[]): any => {
   return array[array.length - 1];
 };
 
