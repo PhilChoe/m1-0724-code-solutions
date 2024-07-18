@@ -44,8 +44,8 @@ const isOldEnoughToDrive = (person: Person): boolean => {
   return person.age >= 16;
 };
 
-const isOldEnoughToDrinkAndDrive = (): boolean => {
-  return false;
+const isOldEnoughToDrinkAndDrive = (person: Person): boolean => {
+  return isOldEnoughToDrink(person) && isOldEnoughToDrive(person);
 };
 
 // categorizeAcidity(pH)
