@@ -8,7 +8,7 @@
             getValues
  */
 function getNumbersToTen() {
-  let numbers = [];
+  const numbers = [];
   let currentNumber = 1;
   while (currentNumber <= 10) {
     numbers.push(currentNumber);
@@ -17,7 +17,7 @@ function getNumbersToTen() {
   return numbers;
 }
 function getEvenNumbersToTwenty() {
-  let evenNumbers = [];
+  const evenNumbers = [];
   let currentNumber = 2;
   while (currentNumber <= 20) {
     evenNumbers.push(currentNumber);
@@ -27,7 +27,7 @@ function getEvenNumbersToTwenty() {
 }
 function repeatWord(word, times) {
   let count = 1;
-  let repeated = ' ';
+  let repeated = '';
   while (count <= times) {
     repeated += word;
     count++;
@@ -37,28 +37,28 @@ function repeatWord(word, times) {
 function logEachCharacter(str) {
   for (let i = 0; i < str.length; i++) console.log(str[i]);
 }
-//function logEachCharacter(str: string): any {
+// function logEachCharacter(str: string): any {
 //  for (let i of str) {console.log(string[1]),
-//}
-//}
-//*would this be the correct way to write it in for... of loop? */
+// }
+// }
+//* would this be the correct way to write it in for... of loop? */
 function doubleAll(numbers) {
-  let doubled = [];
+  const doubled = [];
   for (let i = 0; i < numbers.length; i++) {
     doubled.push(numbers[i] * 2);
   }
   return doubled;
 }
 function getKeys(obj) {
-  let keys = [];
-  for (let key in obj) {
+  const keys = [];
+  for (const key in obj) {
     keys.push(key);
   }
   return keys;
 }
 function getValues(obj) {
-  let values = [];
-  for (let key in obj) {
+  const values = [];
+  for (const key in obj) {
     values.push(obj[key]);
   }
   return values;

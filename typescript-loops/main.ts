@@ -31,7 +31,7 @@ function getEvenNumbersToTwenty(): number[] {
 
 function repeatWord(word: any, times: any): any {
   let count = 1;
-  let repeated = ' ';
+  let repeated = '';
 
   while (count <= times) {
     repeated += word;

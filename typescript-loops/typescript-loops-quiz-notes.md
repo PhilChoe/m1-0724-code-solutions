@@ -11,7 +11,7 @@ Answer the following questions in the provided markdown file before turning in t
 - What does "iteration" mean in the context of loops?
   //iteration in this context means that the code block will run
 - _When_ does the **condition** expression of a `while` loop get evaluated?
-  //when the assigned variable keeping track of the number of iterations the loop executes and comparing that to the amount of iterations we want, so before each iteration
+  //it is checked before each iteration of the loop
 - _When_ does the **initialization** expression of a `for` loop get evaluated?
   //runs just once before the loop begins to iterate
 - _When_ does the **condition** expression of a `for` loop get evaluated?
