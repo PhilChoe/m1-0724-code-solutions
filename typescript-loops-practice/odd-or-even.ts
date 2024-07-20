@@ -12,3 +12,7 @@ function oddOrEven(numbers: number[]): string[] {
   }
   return result;
 }
+
+// you use the else here because you need to push into new array odd returns
+// without the else, the code would stop iterating after the first even
+// or odd returns would not be added to new array
