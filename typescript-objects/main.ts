@@ -52,8 +52,8 @@ console.log('Type of vehicle:', typeof vehicle);
 //
 
 interface Pet {
-  name: string;
-  kind: string;
+  name?: string;
+  kind?: string;
 }
 
 const pet: Pet = {
