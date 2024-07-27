@@ -1,7 +1,8 @@
 /* exported toObject */
 
 function toObject(keyValuePair: [string, any]): any {
-  const [key, value] = keyValuePair;
+  const key = keyValuePair[0];
+  const value = keyValuePair[1];
   const result: object = {};
 
   result[key] = value;

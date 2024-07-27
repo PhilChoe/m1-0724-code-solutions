@@ -7,9 +7,5 @@ function getKeys(obj: object): string[] {
   for (const key in obj) {
     keyArr.push(key);
   }
-
-  for (let i = 0; i < keyArr.length; i++) {
-    keys.push(keyArr[i]);
-  }
   return keys;
 }
