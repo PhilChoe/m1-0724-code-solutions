@@ -3,6 +3,24 @@
 function swapChars(
   firstIndex: number,
   secondIndex: number,
+  string: string
+): string {
+  let result = '';
+
+  for (let i = 0; i < string.length; i++) {
+    if (i === firstIndex) {
+      result += string[secondIndex];
+    } else if (i === secondIndex) {
+      result += string[firstIndex];
+    }
+  }
+
+  return result;
+}
+
+/* function swapChars(
+  firstIndex: number,
+  secondIndex: number,
   input: string
 ): string {
   const chars = input.split('');
@@ -20,3 +38,4 @@ function swapChars(
   }
   return chars.join('');
 }
+*/
