@@ -9,7 +9,7 @@ Answer the following questions in the provided markdown file before turning in t
 - How do inline elements affect the document flow?
   /it does not start on a new line and only occupy the space bounded by the tags defining the element
 - What are the default width and height of a block-level element?
-  /the default height is the height of the content and the width is the length of the page
+  /the default height is the height of the content and the width is the length of the what's allowed by its parent
 - What are the default width and height of an inline element?
   /same width and height of its content
 
