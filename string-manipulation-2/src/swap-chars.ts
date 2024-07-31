@@ -12,6 +12,8 @@ function swapChars(
       result += string[secondIndex];
     } else if (i === secondIndex) {
       result += string[firstIndex];
+    } else {
+      result += string[i];
     }
   }
 
