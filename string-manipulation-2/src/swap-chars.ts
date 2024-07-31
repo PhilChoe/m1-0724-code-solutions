@@ -20,7 +20,10 @@ function swapChars(
   return result;
 }
 
-/* function swapChars(
+/*
+writing to make another PR
+
+function swapChars(
   firstIndex: number,
   secondIndex: number,
   input: string
