@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML Web Page</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+
+      td:not(:first-child) {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- your HTML code here 👇 -->
+    <h1>Jelly of the Month Club</h1>
+    <h2>Make all your friends jelly of your stock of jelly&excl;</h2>
+    <p>
+      Here at the JOTMC Inc&period;&comma; we are constantly striving to supply
+      our customers with the highest&dash;quality and most unique jellies on a
+      monthly basis&period; For the jelly lover in your life (or
+      yourself&excl;)&comma; this is the gift that keeps on giving all year
+      round&period; We offer three tiers of monthly jelly joy&comma; and each
+      one offers their own perks&period; Here is a breakdown of each&comma; as
+      well as your monthly price&colon;
+    </p>
+
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Basic Plan</th>
+          <th>Deluxe Plan</th>
+          <th>Jelly Giant Plan</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Three new curated jellies per month</td>
+          <td>&check;</td>
+          <td>&check;</td>
+          <td>&check;</td>
+        </tr>
+        <tr>
+          <td>Monthly jellies come with commemorative mason jars</td>
+          <td></td>
+          <td>&check;</td>
+          <td>&check;</td>
+        </tr>
+        <tr>
+          <td>Free bonus jar of preserves bi&dash;monthly</td>
+          <td></td>
+          <td>&check;</td>
+          <td>&check;</td>
+        </tr>
+        <tr>
+          <td>Free yearly tickets to Jelly Con</td>
+          <td></td>
+          <td></td>
+          <td>&check;</td>
+        </tr>
+        <tr>
+          <td>Monthly Pricing</td>
+          <td>&dollar;30</td>
+          <td>&dollar;50</td>
+          <td>&dollar;60</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      Like what you see&quest; Become a part of the JOTMC family today&excl;
+    </p>
+    <form action="">
+      <div>
+        <label for="name"></label>
+        <input placeholder="Your Name" name="name" id="name" />
+        <!---->
+        <label for="plan"></label>
+        <select id="select_your_plan" name="plan" size="2" style="height: 19px">
+          <option value="">Select Your Plan&colon;</option>
+        </select>
+        <!---->
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
