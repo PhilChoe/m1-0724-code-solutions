@@ -1,0 +1,70 @@
+body {
+  text-align: center;
+  position: relative;
+  font-family: sans-serif;
+}
+
+h2 {
+  font-family: 'Brandon Grotesque', sans-serif;
+  text-align: center;
+  color: orangered;
+  font-size: 1.2rem;
+  padding: 3px;
+  margin-bottom: 20px;
+}
+
+section {
+  position: relative;
+  text-align: left;
+  display: inline-block;
+  width: 500px;
+  margin: auto;
+}
+
+.description {
+  color: black;
+  font-family: AtlasGrotesk, sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 3px;
+  margin-bottom: 5px;
+  text-indent: 2%;
+}
+
+::placeholder {
+  color: lightgray;
+  text-indent: 0%;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  font-weight: 300;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  font-size: 0.9rem;
+}
+
+button {
+  background-color: orangered;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 20%;
+  float: right;
+}
+
+button:hover {
+  background-color: darkorange;
+}
+
+#engineers {
+  background-color: rgb(244, 242, 242);
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CSS Challenge - Brochure Form</title>
+    <link rel="stylesheet" href="fonts.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div>
+      <h2>LEARN MORE</h2>
+    </div>
+    <form
+      action="http://localhost:5500/css-brochure-form/index.html"
+      method="post">
+      <section class="center_form">
+        <div class="description">
+          <label for="email">COMPANY EMAIL</label>
+        </div>
+        <div class="fill_in">
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="sally@company.co" />
+        </div>
+        <div class="description">
+          <label for="name">NAME</label>
+        </div>
+        <div class="fill_in">
+          <input type="text" id="name" name="name" placeholder="Sally Smith" />
+        </div>
+        <div class="description">
+          <label for="location">WHERE ARE YOU HIRING&quest;</label>
+        </div>
+        <div class="fill_in">
+          <input
+            type="text"
+            id="location"
+            name="location"
+            placeholder="City, Country" />
+        </div>
+        <div class="description">
+          <label for="enginners"
+            >HOW MANY ENGINEERS ARE YOU HIRING IN THE NEXT 6
+            MONTHS&quest;</label
+          >
+        </div>
+        <div class="fill_in">
+          <select id="engineers" name="engineers">
+            <option value="1-2 Engineers">1-2 Engineers</option>
+            <option value="3-4 Engineers">3-4 Engineers</option>
+            <option value="5-6 Engineers">5-6 Engineers</option>
+          </select>
+        </div>
+      </section>
+      <br />
+      <section>
+        <p>
+          <button type="button">SUBMIT</button>
+        </p>
+      </section>
+    </form>
+  </body>
+</html>
