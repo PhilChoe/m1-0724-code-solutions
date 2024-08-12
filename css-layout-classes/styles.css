@@ -26,8 +26,6 @@
   width: calc(100% / 2);
 }
 
-/* is there a way to change this width without these numbers so the width of all the contents match? */
-
 .column-other-half {
   width: calc(100% / 2.2);
 }
@@ -36,6 +34,6 @@
 .column-one-fourth img,
 .column-one-half img,
 .column-one-third img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }

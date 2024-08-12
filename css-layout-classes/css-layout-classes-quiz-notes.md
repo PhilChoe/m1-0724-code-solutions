@@ -9,7 +9,7 @@ Answer the following questions in the provided markdown file before turning in t
 - What is the default `flex-direction` of an element with `display: flex`?
   row - horizontal
 - What are the three primary components of a page layout? (Which helper classes do you need?)
-  visual hierarchy, visual flow, grouping/alignment
+  container, row, column
 - What is the minimum number of **columns** that you should put in a **row**?
   1
 - What is the purpose of a **container**?
