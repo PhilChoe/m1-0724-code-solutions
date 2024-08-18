@@ -3,6 +3,7 @@
   border-bottom: 2px solid rgba(211, 211, 211, 0.544);
   font-family: Avenir, sans-serif;
   width: 95%;
+  min-width: 40%;
 }
 
 .half {
@@ -38,34 +39,42 @@
 }
 
 .image {
-  text-align: center;
   position: relative;
   max-width: 80%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 .image img {
-  display: inline-block;
   width: 100%;
-  max-width: 100%;
   height: auto;
-  background-size: cover;
-  position: relative;
-  margin-top: 50px;
+  display: block;
 }
 
-.img .overlay {
+.overlay {
   background: linear-gradient(transparent, rgba(78, 78, 78, 0.9));
-  position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   z-index: 1;
+  position: absolute;
 }
 
-.img-header {
+.img-content {
+  position: absolute;
+  top: 2rem;
+  left: 4rem;
+  right: 50%;
+  bottom: 0;
+  flex-wrap: wrap;
+  color: white;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+}
+
+/* .img-header {
   position: absolute;
   text-wrap: wrap;
   color: rgb(241, 239, 239);
@@ -75,33 +84,32 @@
   top: 14%;
   z-index: 2;
   max-width: 40%;
+} */
+
+.img-content h2 {
+  font-family: Avenir, sans-serif;
+  color: white;
+  font-size: 3vw;
 }
 
 .img-text {
-  position: absolute;
-  text-wrap: wrap;
-  color: rgb(228, 227, 227);
+  color: white;
   font-family: Avenir, sans-serif;
-  font-size: 1.5rem;
-  left: 15%;
-  bottom: 52%;
+  font-size: 1.4vw;
+  line-height: 1.5;
   z-index: 2;
-  max-width: 42%;
-  line-height: 1.25;
 }
 
 .get-started {
-  position: absolute;
   font-family: Avenir, sans-serif;
   background-color: rgba(12, 64, 122, 0.611);
   color: white;
-  height: 65px;
-  width: 190px;
-  font-size: larger;
+  height: 4vw;
+  width: 10vw;
+  font-size: 1.5vw;
   z-index: 2;
-  top: 50%;
-  left: 15%;
   border-radius: 8px;
+  align-self: flex-end;
 }
 
 .clinicians {
@@ -122,6 +130,7 @@
   font-weight: -300;
   font-size: 1.25rem;
   color: rgba(81, 77, 77, 0.801);
+  padding-bottom: 1rem;
 }
 
 .clinicians-description {
