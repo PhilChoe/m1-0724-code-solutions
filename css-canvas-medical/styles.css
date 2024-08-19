@@ -1,0 +1,279 @@
+.header {
+  display: flex;
+  border-bottom: 2px solid rgba(211, 211, 211, 0.544);
+  font-family: Avenir, sans-serif;
+  width: 95%;
+  min-width: 40%;
+}
+
+.half {
+  width: 48%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: -30px;
+}
+
+.half h1 {
+  font-size: 3.5rem;
+  color: rgb(0, 0, 46);
+  margin-left: 7rem;
+}
+
+.fifth {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: medium;
+  margin-right: 0.5rem;
+}
+
+.fifth > button {
+  background-color: rgb(0, 0, 46);
+  height: 40px;
+  width: 120px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: center;
+}
+
+.image {
+  position: relative;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.overlay {
+  background: linear-gradient(transparent, rgba(78, 78, 78, 0.9));
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  position: absolute;
+}
+
+.img-content {
+  position: absolute;
+  top: 2rem;
+  left: 4rem;
+  right: 50%;
+  bottom: 0;
+  flex-wrap: wrap;
+  color: white;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+}
+
+/* .img-header {
+  position: absolute;
+  text-wrap: wrap;
+  color: rgb(241, 239, 239);
+  font-family: Avenir, sans-serif;
+  font-size: 2.3rem;
+  left: 15%;
+  top: 14%;
+  z-index: 2;
+  max-width: 40%;
+} */
+
+.img-content h2 {
+  font-family: Avenir, sans-serif;
+  color: white;
+  font-size: 3vw;
+}
+
+.img-text {
+  color: white;
+  font-family: Avenir, sans-serif;
+  font-size: 1.4vw;
+  line-height: 1.5;
+  z-index: 2;
+}
+
+.get-started {
+  font-family: Avenir, sans-serif;
+  background-color: rgba(12, 64, 122, 0.611);
+  color: white;
+  height: 4vw;
+  width: 10vw;
+  font-size: 1.5vw;
+  z-index: 2;
+  border-radius: 8px;
+  align-self: flex-end;
+}
+
+.clinicians {
+  background-color: rgba(249, 248, 248, 0.79);
+  margin-top: 5rem;
+  height: 27rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clinicians-header {
+  text-align: center;
+  font-family: Avenida, sans-serif;
+  font-weight: -300;
+  font-size: 1.25rem;
+  color: rgba(81, 77, 77, 0.801);
+  padding-bottom: 1rem;
+}
+
+.clinicians-description {
+  margin-top: -2%;
+  text-align: center;
+  text-wrap: wrap;
+  max-width: 35%;
+  font-family: Avenida, sans-serif;
+  font-weight: 100;
+  color: rgba(81, 77, 77, 0.801);
+}
+
+.location-half {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  padding-top: 2rem;
+  row-gap: 2rem;
+}
+
+.location {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.4rem;
+  color: rgba(66, 66, 66, 0.801);
+}
+
+.learn-more {
+  display: flex;
+  max-width: 80%;
+  justify-content: space-between;
+  margin-left: 10%;
+  padding-top: 2rem;
+  padding-bottom: 3cqh;
+}
+
+.learn-half {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.learn-more-header {
+  font-family: Avenida, sans-serif;
+  font-size: 1.2rem;
+  color: rgba(66, 66, 66, 0.801);
+}
+
+.learn-more-details {
+  font-family: Avenida, sans-serif;
+  font-size: 1.1rem;
+}
+
+.learn-button > button {
+  justify-content: flex-end;
+  background-color: rgb(2, 2, 81);
+  height: 50px;
+  width: 160px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 2.5rem;
+}
+
+.top-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4b4b4b;
+  color: white;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 7%;
+}
+
+.footer-half {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-left {
+  max-width: 33%;
+}
+
+.footer-left a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-column {
+  margin-right: 1rem;
+}
+
+.footer-right {
+  display: flex;
+  justify-content: space-between;
+  max-width: 45%;
+  margin-left: auto;
+  margin-right: 5%;
+  flex: 1;
+}
+
+.footer-left > h2 {
+  font-family: 'Tiempos Headline', sans-serif;
+  font-style: light;
+  font-size: 3rem;
+}
+
+.footer-right > h3 {
+  font-family: Avenida, sans-serif;
+  font-size: 2rem;
+}
+
+.footer-right a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  margin-top: 10%;
+  font-family: Avenida, sans-serif;
+  font-size: 1.2rem;
+}
+
+.extras {
+  display: flex;
+  margin-left: 8%;
+}
+
+.extras a {
+  font-family: Avenida, sans-serif;
+  font-size: 1.2rem;
+  padding-right: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-decoration: none;
+  color: gray;
+}
+
+.extras a:hover {
+  cursor: pointer;
+}
