@@ -1,32 +1,31 @@
-let $count = 0;
+let clickCount = 0;
 
-const $button = document.querySelector('.hot-button');
-const $click = document.querySelector('.click-count');
+const hotButton = document.querySelector('.hot-button');
+const clickCounter = document.querySelector('.click-count');
 
-if (!$button) throw new Error('The $button query failed');
+if (!hotButton) throw new Error('The $button query failed');
+if (!clickCounter) throw new Error('The .click-count query failed');
 
 function handleClick(): void {
-  $count++;
+  clickCount++;
+  let temp;
 
-  if (!$button || !$click) {
-    throw new Error('The $button or $click query failed');
-  }
-
-  $click.textContent = `Click Count: ${$count}`;
-
-  if ($count < 4) {
-    $button.className = 'cold';
-  } else if ($count < 7) {
-    $button.className = 'cool';
-  } else if ($count < 10) {
-    $button.className = 'tepid';
-  } else if ($count < 13) {
-    $button.className = 'warm';
-  } else if ($count < 16) {
-    $button.className = 'hot';
+  if (clickCount < 4) {
+    temp = 'cold';
+  } else if (clickCount < 7) {
+    temp = 'cool';
+  } else if (clickCount < 10) {
+    temp = 'tepid';
+  } else if (clickCount < 13) {
+    temp = 'warm';
+  } else if (clickCount < 16) {
+    temp = 'hot';
   } else {
-    $button.className = 'nuclear';
+    temp = 'nuclear';
   }
+
+  hotButton!.className = 'hot-button ' + temp;
+  clickCounter!.textContent = 'clicks: ' + clickCount;
 }
 
-$button.addEventListener('click', handleClick);
+hotButton.addEventListener('click', handleClick);
