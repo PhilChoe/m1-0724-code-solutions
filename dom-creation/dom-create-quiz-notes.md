@@ -5,13 +5,13 @@
 Answer the following questions in the provided markdown file before turning in this exercise:
 
 - Does the `document.createElement()` method insert a new element into the page?
-  yes, it creates a new element with the specified tag name
+  yes, it creates a new element with the specified tag name, but it does not add it to the DOM tree until you use the document.appendChild() method to link it up to an existing element in the DOM tree
 - How do you add an element as a child to another element?
   appendChild()
 - What do you pass as the arguments to the `element.setAttribute()` method?
   it will take 2 arguments, first being a string of the attribute you are trying to create or update (class, id, type, etc.) and 2nd is the value you would like to assign to that attribute
 - What steps do you need to take in order to insert a new element into the page?
-  use the document.createElement(), to create a new element with the specified tag name
+  use the document.createElement(), to create a new element with the specified tag name, followed by setting the needed attribute, and concluded by adding the new element as a child of an existing element in the DOM tree
 - What is the `textContent` property of an element object for?
   it is used to get or set the text content of an element. It represents all the text within an element, including text inside any of its child elements, but it excludes any HTML tags
 - Name two ways to set the `class` attribute of a DOM element.
