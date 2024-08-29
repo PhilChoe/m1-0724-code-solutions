@@ -11,11 +11,11 @@ Answer the following questions in the provided markdown file before turning in t
 - What DOM element property tells you what type of element it is?
   .tagName
 - What does the `element.closest()` method take as its argument and what does it return?
-  it takes a selector string as its argument and returns the closest element of the element, including the element itself that matches the specified selector
+  it takes a selector string as its argument and returns the closest element of the element, including the element itself that matches the specified selector; specifically the ancestor elements, including itself
 - How can you remove an element from the DOM?
   remove()
 - If you wanted to insert new clickable DOM elements into the page using JavaScript, how could you avoid adding an event listener to every new element individually?
-  event delegation
+  event delegation; adding event listener to the parent/ancestor element
 
 ## Notes
 

@@ -14,6 +14,6 @@ taskList.addEventListener('click', (event: Event) => {
     console.log('Closest .task-list-item ancestor: ', taskListItem);
 
     taskListItem?.remove();
-    /* I had to chat GPT this lst line for the '?' because I could not figure out what to do about the possibly null error */
+    /* if (taskListItem != null) (taskListItem.remove();} */
   }
 });
