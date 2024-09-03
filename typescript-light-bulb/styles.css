@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+  height: 100vb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.light-bulb {
+  display: flex;
+  background-color: rgb(60, 59, 59);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.light-bulb.on {
+  background-color: #ffeb3b;
+}
+
+body.light-on {
+  background-color: antiquewhite;
+}
+
+body.light-off {
+  background-color: black;
+}
